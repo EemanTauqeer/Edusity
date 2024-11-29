@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn{
+  background: #fff;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: 'Outfit';
+}
+
+.flex{
+  display: flex;
+}
+.center-center{
+  align-items: center;
+  justify-content: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+
+@media (max-width: 850px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
